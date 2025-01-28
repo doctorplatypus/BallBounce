@@ -1,0 +1,139 @@
+body {
+  background-image: url("https://i.imgur.com/DM7Vrum.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+.fun {
+  font-family: serif, "Times New Roman";
+  color: #4466ff;
+  font-size: 45px;
+  text-align: center;
+  vertical-align: super;
+}
+p.three {
+  font-size: 25px;
+  background-color: red;
+  border-style: dotted solid dashed;
+  border-color: rebeccapurple;
+  border-width: 30px;
+  border-radius: 10px;
+
+  width: 300px;
+  height: 200px;
+}
+.header {
+  color: rgb(255, 0, 0);
+  width: 400px;
+  height: 350px;
+  margin: 30% 40% 20% 45%;
+  padding-top: 50px;
+  padding-right: 40px;
+  padding-left: 56px;
+  padding-bottom: 78px;
+  background-color: black;
+}
+
+.sticky {
+  position: sticky;
+  top: 80px;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73ad21;
+}
+
+.abs {
+  position: absolute;
+  width: 2200px;
+  height: 200px;
+  border: dashed;
+  background-color: green;
+  top: 615px;
+}
+
+.abs1 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border: solid orange;
+  top: 80px;
+  right: 250px;
+  z-index: -1;
+}
+
+.fix {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  width: 300px;
+  border: 3px double black;
+}
+
+.button {
+  width: 100px;
+  height: 100px;
+  margin: 30px;
+  background-color: maroon;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: orange;
+}
+
+div.bounce {
+  background-color: paleturquoise;
+  color: darkred;
+  font-size: 56px;
+  animation: bounce 2s infinite linear;
+}
+
+.ball {
+  position: sticky;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border-radius: 50%;
+  animation: bounce 1s infinite;
+}
+.ball2 {
+  position: sticky;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border-radius: 50%;
+  animation: bounce 5s infinite;
+  margin: 0px;
+  display: inline-block;
+}
+
+.ball3 {
+  position: sticky;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border-radius: 50%;
+  animation: bounce 10s infinite;
+  margin: 0px;
+  display: inline-block;
+}
+.ball4 {
+  position: sticky;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border-radius: 50%;
+  animation: bounce 1s infinite;
+  margin: 0px;
+  display: inline-block;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(50);
+  }
+  50% {
+    transform: translateY(-50px);
+  }
+}
